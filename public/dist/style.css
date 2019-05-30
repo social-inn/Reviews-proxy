@@ -3,3 +3,32 @@
     id="booking"
     id="airbnb_reviews"
     id="moreHomes" */
+
+.infoAndReviewsBox{
+    display: block;
+    width: 70%;
+    padding-left:3em;
+}
+
+#airbnb-info {
+    display: block;
+    width: 1009px;
+    padding-left: 7em;
+}
+
+
+#booking {
+    padding-top: 30px;
+    padding-right: 14em;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+#airbnb_reviews {
+    padding-left: 10em;
+}
+
+#moreHomes {
+    width: 70%;
+    margin-left: -8%;
+}
