@@ -1,0 +1,26 @@
+{
+  "name": "airbnb_reviews_proxy",
+  "version": "1.0.0",
+  "description": "A proxy server for FEC project - Airbnb clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacker-home/Airbnb-reviews-proxy.git"
+  },
+  "author": "Wayne Sun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hacker-home/Airbnb-reviews-proxy/issues"
+  },
+  "homepage": "https://github.com/hacker-home/Airbnb-reviews-proxy#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1",
+    "nodemon": "^1.19.1"
+  }
+}

@@ -1,0 +1,29 @@
+
+{
+  "routes": [
+    {
+      "route": "/photos",
+      "address": "http://localhost:3001/photos"
+    },
+    {
+      "route": "/listings",
+      "address": "http://localhost:3002/listings"
+    },
+    {
+      "route": "/room",
+      "address": "http://localhost:3003/room"
+    },
+    {
+      "route": "/booking",
+      "address": "http://localhost:3003/booking"
+    },
+    {
+      "route": "/reviews",
+      "address": "http://localhost:3004/reviews"
+    },
+    {
+      "route": "/MoreHomes",
+      "address": "http://localhost:3005/MoreHomes"
+    }
+  ]
+}
