@@ -4,33 +4,42 @@
     id="airbnb_reviews"
     id="moreHomes" */
 body {
-    min-width: 1335px;
+    min-width: 850px;
 }
+.infoAndbooking{
+    width:86.5%;
+}
+
 .infoAndReviewsBox{
     display: block;
-    width: 70%;
-    padding-left:3em;
+    width: 75%;
+    padding-left:3%;
+}
+
+#booking {
+    padding-top: 30px;
+    padding-right: 0.5%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    #booking {
+        display: none;
+    }
 }
 
 #airbnb-info {
     display: block;
     width: 1009px;
-    padding-left: 7em;
+    padding-left: 10%;
 }
 
-
-#booking {
-    padding-top: 30px;
-    padding-right: 14em;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-}
 #airbnb_reviews {
-    padding-left: 10em;
+    padding-left: 14.5%;
 }
 
 #moreHomes {
-    width: 70%;
     margin-left: -8%;
 }
