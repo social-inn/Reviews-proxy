@@ -3,7 +3,9 @@
     id="booking"
     id="airbnb_reviews"
     id="moreHomes" */
-
+body {
+    min-width: 1335px;
+}
 .infoAndReviewsBox{
     display: block;
     width: 70%;
