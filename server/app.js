@@ -8,7 +8,7 @@ const { routes } = require('./config.json');
 
 const app = express();
 
-const PORT = 8000;
+const PORT = 3000;
 
 app.use(bodyParser.json());
 app.use(express.static(`${__dirname}/../public/dist`));
