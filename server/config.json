@@ -19,7 +19,7 @@
     },
     {
       "route": "/reviews",
-      "address": "http://18.218.58.47:3004/reviews"
+      "address": "http://3.14.84.71:3004/reviews"
     },
     {
       "route": "/MoreHomes",
